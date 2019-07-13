@@ -1,0 +1,28 @@
+{
+  "name": "javascript-training",
+  "version": "1.0.0",
+  "description": "Challenge based training on some core javascript concepts.",
+  "author": "Suraj Verma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exercism/javascript"
+  },
+  "scripts": {
+    "test": "eslint . && jest --no-cache ./* ",
+    "test:jest": "jest --no-cache ./*",
+    "test:watch": "jest --no-cache --watch ./*",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.2",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.0.1",
+    "eslint-plugin-import": "^2.18.0",
+    "jest": "^24.8.0"
+  }
+}
