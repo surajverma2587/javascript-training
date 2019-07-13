@@ -9,9 +9,9 @@
     "url": "https://github.com/exercism/javascript"
   },
   "scripts": {
-    "test": "eslint . && jest --no-cache ./* ",
-    "test:jest": "jest --no-cache ./*",
-    "test:watch": "jest --no-cache --watch ./*",
+    "test": "eslint . && jest --no-cache --verbose ./* ",
+    "test:jest": "jest --no-cache --verbose ./*",
+    "test:watch": "jest --no-cache --watch --verbose ./*",
     "lint": "eslint ."
   },
   "devDependencies": {
