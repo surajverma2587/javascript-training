@@ -15,7 +15,7 @@ Resistors have color coded bands, where each color maps to a number. The first 2
 - Grey: 8
 - White: 9
 
-Write a function which returns the corresponding value of a resistor color.
+Write a function which returns the corresponding value of a resistor color. If the color does not match any of the above colors return 'Invalid Resistor Color'.
 
 ### Note
 
