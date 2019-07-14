@@ -25,9 +25,8 @@ Write a function which returns the corresponding value of a resistor color. If t
 
 ### Concepts Covered
 
-- [module import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
-- [module export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export)
-- [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
 ### Useful Links
 
