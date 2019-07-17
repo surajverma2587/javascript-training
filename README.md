@@ -37,6 +37,14 @@ npm install
 npm run test
 ```
 
+You should see a bunch of failing tests except for the last one which should read:
+
+```sh
+PASS src/__tests__/index.spec.js
+Setup
+  ✓ should say 'All Good!!'
+```
+
 To run the tests follow these steps:
 
 ```sh
@@ -57,4 +65,7 @@ npm run lint
 
 ## Challenges
 
-1.  Hello World [hello-world]
+1.  [Hello World](https://github.com/surajverma2587/javascript-training/blob/master/src/hello-world/README.md)
+2.  [Resistor Color](https://github.com/surajverma2587/javascript-training/blob/master/src/resistor-color/README.md)
+3.  [Resistor Color Combo](https://github.com/surajverma2587/javascript-training/blob/master/src/resistor-color-combo/README.md)
+4.  [Darts](https://github.com/surajverma2587/javascript-training/blob/master/src/darts/README.md) 
