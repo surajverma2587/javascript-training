@@ -17,6 +17,7 @@ nvm install --lts
 # Use the latest LTS verison
 nvm use --lts
 ```
+If you do not have Git installed follow these steps on [Git Setup](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
 
 If you haven't cloned the repository follow these steps:
 
