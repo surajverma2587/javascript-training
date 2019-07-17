@@ -28,6 +28,7 @@ It should transcribe a DNA sequence to the corresponding RNA sequence. For examp
 ### Concepts Covered
 
 - [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 ### Useful Links
 
