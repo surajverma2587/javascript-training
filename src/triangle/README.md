@@ -20,9 +20,7 @@ For a shape to be a triangle at all, all sides have to be of length > 0, and the
 
 ### Concepts Covered
 
-- [module import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
-- [module export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export)
-- [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- [if/else operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
 ### Useful Links
 
