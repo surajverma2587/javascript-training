@@ -11,8 +11,8 @@
   "scripts": {
     "test": "eslint . && jest --no-cache --verbose ./* ",
     "test:jest": "jest --no-cache --verbose ./*",
-    "test:watch": "jest --no-cache --watch --verbose ./*",
-    "test:solution": "jest \"solution.*.spec.js$\" --no-cache --watch --verbose",
+    "test:watch": "jest --no-cache --watch --verbose \".*.spec.js$\"",
+    "test:solution": "jest \"solution.*.test.js$\" --no-cache --watch --verbose",
     "lint": "eslint ."
   },
   "devDependencies": {
