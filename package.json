@@ -9,7 +9,7 @@
     "url": "https://github.com/exercism/javascript"
   },
   "scripts": {
-    "test": "eslint . && jest --no-cache --verbose ./* ",
+    "test": "eslint . && jest --no-cache --verbose ./*",
     "test:jest": "jest --no-cache --verbose ./*",
     "test:watch": "jest --no-cache --watch --verbose \".*.spec.js$\"",
     "test:coverage": "jest --no-cache --coverage --verbose \".*.spec.js$\"",
