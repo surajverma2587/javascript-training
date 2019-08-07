@@ -1,4 +1,4 @@
-# Javascript Training
+# Javascript Training 101
 
 ### Getting Started
 
