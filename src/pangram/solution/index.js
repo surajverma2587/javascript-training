@@ -18,3 +18,19 @@ const isPangram = (sentence) => {
 }
 
 export default isPangram
+
+/**
+ * Refactored version
+ */
+
+// const alphabets = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'l', 'k', 'j', 'h', 'g', 'f', 'd', 's', 'a', 'z', 'x', 'c', 'v', 'b', 'n', 'm']
+
+// const isPangram = (sentence) => {
+//   if (typeof sentence === 'string') {
+//     const sentenceArray = [...sentence.toLowerCase()]
+//     return alphabets.every((alphabet) => sentenceArray.includes(alphabet))
+//   } 
+//   return false
+// }
+
+// export default isPangram

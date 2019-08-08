@@ -33,3 +33,27 @@ const dnaSequencer = (dnaSequence) => {
 }
 
 export default dnaSequencer;
+
+/**
+ * Refactored version
+ */
+
+// export const toRNA = (nucleotide) => {
+//   switch (nucleotide) {
+//     case 'G': return 'C'
+//     case 'C': return 'G'
+//     case 'T': return 'A'
+//     case 'A': return 'U'
+//     default: return ''
+//   }
+// };
+
+// export const stringToArray = (dnaString) => [...dnaString]
+
+// export const converter = (nucleotides) => nucleotides
+//   .map((nucleotide) => toRNA(nucleotide))
+//   .join('');
+
+// const dnaSequencer = (dnaSequence) => converter(stringToArray(dnaSequence));
+
+// export default dnaSequencer;

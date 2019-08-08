@@ -3,3 +3,11 @@ const helloWorld = () => {
 }
 
 export default helloWorld
+
+/**
+ * Refactored version
+ */
+
+// const helloWorld = () => 'Hello, World!'
+
+// export default helloWorld
