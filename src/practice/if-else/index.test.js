@@ -28,8 +28,8 @@ test('should return true for a string length lesser than 10', () => {
   expect(result).toEqual(expected)
 })
 
-test('should return false for a string length equal to 10', () => {
-  const expected = false
+test('should return true for a string length equal to 10', () => {
+  const expected = true
   const result = isValidString('helloworld')
 
   expect(result).toEqual(expected)
