@@ -23,5 +23,5 @@ export const hashtagFormat = (hashtags) => {
 }
 
 export const titleFormat = (username) => {
-  return `Tweet from $\{}${username}`
+  return `Tweet from ${username}`
 }
