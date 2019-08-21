@@ -25,3 +25,25 @@ export const hashtagFormat = (hashtags) => {
 export const titleFormat = (username) => {
   return `Tweet from ${username}`
 }
+
+export const transformTweet = (tweet) => {
+  return {
+    id: tweet.id,
+    likes: tweet.likes,
+    message: tweet.message,
+    hashtags: hashtagFormat(tweet.hashtags),
+    title: titleFormat(tweet.username)
+  }
+}
+
+export const transformTweets = (tweets) => {
+  return tweets.map((tweet) => {
+    return transformTweet(tweet)
+  })
+}
+
+export const totalLikes = (tweets) => {
+  return tweets.reduce((acc, tweet) => {
+    return acc + tweet.likes
+  }, 0)
+}
