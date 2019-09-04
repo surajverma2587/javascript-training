@@ -47,3 +47,15 @@ export const totalLikes = (tweets) => {
     return acc + tweet.likes
   }, 0)
 }
+
+export const fakeTwitter = (data) => {
+  const filteredTweets = filterItems(data.tweets)
+  const sortedTweets = sortItems(filteredTweets)
+  const tweets = transformTweets(sortedTweets)
+  const likes = totalLikes(sortedTweets)
+
+  return {
+    tweets: tweets,
+    likes: likes
+  }
+}
