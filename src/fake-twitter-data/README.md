@@ -15,15 +15,21 @@ Write a function which receives a list of tweets related to cars from the fake t
 {
   tweets: [
     {
-      id: 456,
-      likes: 234,
-      message: 'Tweet 1',
-      hashtags: '#cars #nissan #newcar',
-      title: 'Tweet from <username here>'
-    }
-    ...
+      id: 300,
+      likes: 6378,
+      message: "Kia was over-rated!!",
+      title: "Tweet from Alice",
+      hashtags: "#cars #kia #newcar",
+    },
+    {
+      id: 121,
+      likes: 52342,
+      message: "I love my new nissan!!",
+      title: "Tweet from Bob",
+      hashtags: "#cars #nissan #newcar",
+    },
   ],
-  likes: 5768
+  likes: 58720
 }
 ```
 
@@ -33,27 +39,27 @@ The returned object is then used by the UI-client to render a list of tweets and
 
 ```javascript
 {
-  "tweets": [
+  tweets: [
     {
-      "id": 256,
-      "likes": 2432,
-      "message": "This is my first tweet!!",
-      "username": "Kate",
-      "hashtags": ["cars", "bmw", "newcar"]
+      id: 256,
+      likes: 2432,
+      message: "This is my first tweet!!",
+      username: "Kate",
+      hashtags: ["cars", "bmw", "newcar"]
     },
     {
-      "id": 121,
-      "likes": 52342,
-      "message": "I love my new nissan!!",
-      "username": "Bob",
-      "hashtags": ["cars", "nissan", "newcar"]
+      id: 121,
+      likes: 52342,
+      message: "I love my new nissan!!",
+      username: "Bob",
+      hashtags: ["cars", "nissan", "newcar"]
     },
     {
-      "id": 300,
-      "likes": 6378,
-      "message": "Kia was over-rated!!",
-      "username": "Alice",
-      "hashtags": ["cars", "kia", "newcar"]
+      id: 300,
+      likes: 6378,
+      message: "Kia was over-rated!!",
+      username: "Alice",
+      hashtags: ["cars", "kia", "newcar"]
     }
   ]
 }
