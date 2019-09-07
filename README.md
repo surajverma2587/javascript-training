@@ -58,17 +58,14 @@ To run the tests in watch mode follow these steps:
 npm run test:watch
 ```
 
+To run the solution tests in watch mode follow these steps:
+
+```sh
+npm run test:solution
+```
+
 To check for linting errors follow these steps:
 
 ```sh
 npm run lint
 ```
-
-## Challenges
-
-1.  [Hello World](https://github.com/surajverma2587/javascript-training/blob/master/src/hello-world/README.md)
-2.  [Resistor Color](https://github.com/surajverma2587/javascript-training/blob/master/src/resistor-color/README.md)
-3.  [Resistor Color Combo](https://github.com/surajverma2587/javascript-training/blob/master/src/resistor-color-combo/README.md)
-4.  [Darts](https://github.com/surajverma2587/javascript-training/blob/master/src/darts/README.md)
-5.  [RNA Transcription](https://github.com/surajverma2587/javascript-training/blob/master/src/rna-transcription/README.md)
-6.  [Triangle](https://github.com/surajverma2587/javascript-training/blob/master/src/triangle/README.md)
