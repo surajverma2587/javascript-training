@@ -35,10 +35,15 @@ const dnaSequencer = (dnaSequence) => {
 export default dnaSequencer;
 
 /**
- * Refactored version
+ * Refactored version.
+ * Comment the code above
+ * and uncomment the code below
+ * and run your tests to check
+ * if the refactored code
+ * passes all tests
  */
 
-// export const toRNA = (nucleotide) => {
+// export const toRNA = nucleotide => {
 //   switch (nucleotide) {
 //     case 'G': return 'C'
 //     case 'C': return 'G'
@@ -48,12 +53,12 @@ export default dnaSequencer;
 //   }
 // };
 
-// export const stringToArray = (dnaString) => [...dnaString]
+// export const stringToArray = dnaString => [...dnaString]
 
-// export const converter = (nucleotides) => nucleotides
-//   .map((nucleotide) => toRNA(nucleotide))
+// export const converter = nucleotides => nucleotides
+//   .map(nucleotide => toRNA(nucleotide))
 //   .join('');
 
-// const dnaSequencer = (dnaSequence) => converter(stringToArray(dnaSequence));
+// const dnaSequencer = dnaSequence => converter(stringToArray(dnaSequence));
 
 // export default dnaSequencer;
