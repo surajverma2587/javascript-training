@@ -6,14 +6,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/exercism/javascript"
+    "url": "https://github.com/surajverma2587/javascript-training"
   },
   "scripts": {
-    "test": "eslint . && jest --no-cache --verbose ./*",
-    "test:jest": "jest --no-cache --verbose ./*",
-    "test:watch": "jest --no-cache --watch --verbose \".*.spec.js$\"",
+    "test": "eslint . && jest --no-cache --verbose --coverage ./*",
+    "test:jest": "jest --no-cache --verbose --coverage \".*.spec.js$\"",
+    "test:watch": "jest --no-cache --verbose --watch \".*.spec.js$\"",
     "test:coverage": "jest --no-cache --coverage --verbose \".*.spec.js$\"",
-    "test:solution": "jest \"solution.*.test.js$\" --no-cache --watch --verbose",
+    "test:solution": "jest \"src/solutions/*\" --no-cache --watch --verbose",
     "lint": "eslint ."
   },
   "devDependencies": {
