@@ -26,7 +26,12 @@ const getTriangleType = (a, b, c) => {
 export default getTriangleType
 
 /**
- * Refactored version
+ * Refactored version.
+ * Comment the code above
+ * and uncomment the code below
+ * and run your tests to check
+ * if the refactored code
+ * passes all tests
  */
 
 // const isValid = (a, b, c) => (
