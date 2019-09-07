@@ -1,3 +1,0 @@
-/**
- * ADD TESTS HERE
- */
