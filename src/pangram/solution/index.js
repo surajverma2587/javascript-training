@@ -1,6 +1,5 @@
 const isPangram = (sentence) => {
-  const sentenceType = typeof sentence
-  if (sentenceType === 'string') {
+  if (typeof sentence === 'string') {
     const alphabetsArray = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'l', 'k', 'j', 'h', 'g', 'f', 'd', 's', 'a', 'z', 'x', 'c', 'v', 'b', 'n', 'm']
   
     const lowercaseSentence = sentence.toLowerCase()
@@ -20,16 +19,21 @@ const isPangram = (sentence) => {
 export default isPangram
 
 /**
- * Refactored version
+ * Refactored version.
+ * Comment the code above
+ * and uncomment the code below
+ * and run your tests to check
+ * if the refactored code
+ * passes all tests
  */
 
-// const alphabets = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'l', 'k', 'j', 'h', 'g', 'f', 'd', 's', 'a', 'z', 'x', 'c', 'v', 'b', 'n', 'm']
+// const alphabets = [...'qwertyuiopasdfghjklzxcvbnm']
 
-// const isPangram = (sentence) => {
+// const isPangram = sentence => {
 //   if (typeof sentence === 'string') {
 //     const sentenceArray = [...sentence.toLowerCase()]
-//     return alphabets.every((alphabet) => sentenceArray.includes(alphabet))
-//   } 
+//     return alphabets.every(alphabet => sentenceArray.includes(alphabet))
+//   }
 //   return false
 // }
 
