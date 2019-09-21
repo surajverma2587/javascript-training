@@ -14,6 +14,9 @@
     "test:watch": "jest --no-cache --verbose --watch \".*.spec.js$\"",
     "test:coverage": "jest --no-cache --coverage --verbose \".*.spec.js$\"",
     "test:solution": "jest \"src/solutions/*\" --no-cache --watch --verbose",
+    "arrays": "jest --no-cache --verbose --watch \"arrays.test.js$\"",
+    "objects": "jest --no-cache --verbose --watch \"objects.test.js$\"",
+    "strings": "jest --no-cache --verbose --watch \"strings.test.js$\"",
     "lint": "eslint ."
   },
   "devDependencies": {
@@ -23,6 +26,7 @@
     "@types/node": "^12.6.2",
     "babel-eslint": "^10.0.2",
     "babel-jest": "^24.8.0",
+    "common-tags": "^1.8.0",
     "eslint": "^6.0.1",
     "eslint-plugin-import": "^2.18.0",
     "jest": "^24.8.0"
