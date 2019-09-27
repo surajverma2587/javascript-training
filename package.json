@@ -15,6 +15,7 @@
     "test:coverage": "jest --no-cache --coverage --verbose \".*.spec.js$\"",
     "test:solution": "jest \"src/solutions/*\" --no-cache --watch --verbose",
     "arrays": "jest --no-cache --verbose --watch \"arrays.test.js$\"",
+    "control-flow": "jest --no-cache --verbose --watch \"control_flow.test.js$\"",
     "objects": "jest --no-cache --verbose --watch \"objects.test.js$\"",
     "strings": "jest --no-cache --verbose --watch \"strings.test.js$\"",
     "lint": "eslint ."
