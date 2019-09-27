@@ -7,10 +7,10 @@ let greet = function () {
 const user1 = { name: "Bob" };
 const user2 = { name: "Alice" };
 
-const originalGreetFun = greet;
+const originalGreetFunc = greet;
 
 greet = function() {
-  originalGreetFun.call(user1);
+  originalGreetFunc.call(user1);
 };
 
 greet();
