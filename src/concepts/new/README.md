@@ -42,3 +42,5 @@ class User {
 
 const user1 = new User('Bob', 30)
 ```
+
+**Note**: Use the new keyword for built-in objects such as `Object()`, `Array()`, `Function()`, `Date()`, `RegExp()`, `Error()` and do not use it to convert types when using `String`, `Number()`, `Boolean`.
