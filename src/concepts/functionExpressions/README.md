@@ -28,7 +28,7 @@ multiply(2, 3)  // 6
 
 In the above example, the function name is not mentioned and such functions are called as anonymous functions. This is another way of representing function expressions.
 
-**NOTE**: Function expressions in JavaScript are not hoisted, unlike function declarations. If we try to access the variable which is hoisted we get undefined but the function definition isn't hoisted so if we try to run the function it throws a `TypeError` of not a function.
+**NOTE**: Function expressions in JavaScript are not hoisted, unlike function declarations. If we try to access the variable which is hoisted we get `undefined` but the function definition isn't hoisted so if we try to run the function it throws a `TypeError` of not a function.
 
 ### Example 
 
@@ -43,6 +43,33 @@ var add = function(a, b) {
 }
 ```
 
+## What is a function declaration?
+
+Function declarations are functions which are declared in JavaScript but not as a value assigned to a variable like function expressions. This is done using the `function` keyword followed by a function name as shown in the example below.
+
+### Example
+
+```javascript
+function add(a, b) {
+  return a + b
+} 
+```
+
+**Note**: Function declarations are hoisted in JavaScript so if we replace the last example of function expressions with a function declaration then JavaScript will not throw a `TypeError` of not a function.
+
+### Example 
+
+```javascript
+console.log(add)  // [Function: add]
+
+add(1, 2) // done
+
+function add(a, b) {
+   console.log('done')
+   return a + b
+}
+```
+
 ## Named Functions
 
 When the `function` keyword is followed by a function name then the function is called as a named function. This is useful when we want to ensure that our functionality is declarative and also useful during recursion, that is call the function again by the function name (explicit name). However, if the function expression is an anonymous function then we can call the function recursively by the variable name (implicit name).
@@ -51,30 +78,25 @@ When the `function` keyword is followed by a function name then the function is 
 
 ```javascript
 // Explicit name
-const math = {
-  getFactorial: function factorial(n) {
-    if (n <= 1) {
-      return 1
-    }
-    return n * factorial(n - 1)
+const getFactorial = function factorial(n) {
+  if (n <= 1) {
+    return 1
   }
+  return n * factorial(n - 1)
 }
-
-const result = math.getFactorial(3)
+const result = getFactorial(3)
 
 console.log(result) // 6
 
 // Implicit name
-const math = {
-  getFactorial: function (n) {
-    if (n <= 1) {
-      return 1
-    }
-    return n * this.getFactorial(n - 1)
+const getFactorial = function (n) {
+  if (n <= 1) {
+    return 1
   }
+  return n * getFactorial(n - 1)
 }
 
-const result = math.getFactorial(3)
+const result = getFactorial(3)
 
 console.log(result) // 6
 ```
