@@ -14,9 +14,9 @@ console.log(num)  //  undefined
 console.log(user) //  Bob
 ```
 
-In the above example, the variable `num` is declared using the `let` keyword. This is because JavaScript throws an error `SyntaxError: Missing initializer in const declaration` when the `const` keyword is used to declare the variable name `num`. The `const` declaration always requires an assignment operator. You can use `const` to assign an `undefined` value. 
+In the above example, the variable `num` is declared using the `let` keyword. If the `const` keyword was used instead of the `let` keyword for `num`, then JavaScript throws an error `SyntaxError: Missing initializer in const declaration`. The `const` declaration always requires an assignment operator. You can use `const` to assign an `undefined` value, but you will have to explicitly set the value of the `const` variable as `undefined`. 
 
-In functions that expect an argument, when the function is invoked with no arguments then the parameter to which is argument is assigned will be declared with an `undefined` value.
+In functions that expect an argument, when the function is invoked with no arguments then the parameter to which the argument is assigned to will be declared with an `undefined` value.
 
 ### Example
 

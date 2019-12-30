@@ -11,6 +11,6 @@ const result = number * 2
 console.log(result) //  NaN
 ```
 
-In the above example, when JavaScript tries to evaluate the expression for `result` it is trying to perform an invalid mathematical operation since `number` is a `string`. At this point JavaScript assigns the special `NaN` value to the variable result.
+In the above example, when JavaScript tries to evaluate the expression for `result` it is trying to perform an invalid mathematical operation since `number` is a String datatype. At this point JavaScript assigns the special `NaN` value to the variable result.
 
 **Note**: You could use the `isNaN()` method to determine if the value is `NaN` or not, which returns `true` for a `NaN` value.
