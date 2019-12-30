@@ -2,7 +2,7 @@ let user = 'Alice'
 
 const changeUser = () => {
   user = 'Bob'
-  // email = 'user@email.com'
+  // const email = 'user@email.com'
   console.log('User name changed')
 }
 
