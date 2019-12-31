@@ -8,4 +8,4 @@ const addByNumber = (numberToAdd) => {
 
 const myAdder = addByNumber(10)
 
-console.log(myAdder(5));
+console.log(myAdder(5))

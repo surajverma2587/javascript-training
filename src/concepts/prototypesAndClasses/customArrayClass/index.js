@@ -5,7 +5,7 @@ class CustomArray {
 
   map(callbackFn) {
     let index = 0
-    let newArray = []
+    const newArray = []
     while (index < this.array.length) {
       const currentValue = this.array[index]
       const result = callbackFn(currentValue)
@@ -27,7 +27,7 @@ class CustomArray {
 
   filter(callbackFn) {
     let index = 0
-    let newArray = []
+    const newArray = []
     while (index < this.array.length) {
       const currentValue = this.array[index]
       const result = callbackFn(currentValue)
