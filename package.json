@@ -9,6 +9,7 @@
     "url": "https://github.com/surajverma2587/javascript-training"
   },
   "scripts": {
+    "babel": "babel-node --presets @babel/env src/concepts/import-export/default-export/01/app.js",
     "test": "eslint . && jest --no-cache --verbose --coverage ./*",
     "test:jest": "jest --no-cache --verbose --coverage \".*.spec.js$\"",
     "test:watch": "jest --no-cache --verbose --watch \".*.spec.js$\"",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
+    "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.5.4",
     "@types/jest": "^24.0.15",
     "@types/node": "^12.6.2",
