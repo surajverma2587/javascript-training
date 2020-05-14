@@ -54,9 +54,22 @@ const display = () => {
   console.log(result) //  10
 }
 
+display()
+
+console.log(result) //  10
+```
+
+When the strict mode is not enforced, also called the `sloppy mode` then the undeclared variable name `result` gets declared by default within the global scope and can be accessed outside of the function where it was declared. Note that the function has to be called first before the `console.log()`. If we `console.log()` before the function is called like in the example shown below then we get a `Reference Error` since the variable `result` was not yet declared in the global scope.
+
+### Example
+
+```javascript
+const display = () => {
+  result = 10
+  console.log(result) //  10
+}
+
 console.log(result) //  Reference Error
 
 display()
 ```
-
-When the strict mode is not enforced, also called the `sloppy mode` then the undeclared variable name `result` gets declared by default within the global scope.
