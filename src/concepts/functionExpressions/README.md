@@ -37,9 +37,9 @@ console.log(add)  // undefined
 
 add(1, 2) // TypeError: add is not a function
 
-var add = function(a, b) {
-   console.log('done')
-   return a + b
+const add = function(num1, num2) {
+  console.log('adding 2 numbers')
+  return num1 + num2
 }
 ```
 
