@@ -1,12 +1,12 @@
-const counter = (counter = 0) => {
+const functionGenerator = (count = 0) => {
   const increment = () => {
-    counter++;
-    console.log(`Counter 1: ${counter}`);
+    count++;
+    console.log(`Counter 1: ${count}`);
   };
 
   const decrement = () => {
-    counter--;
-    console.log(`Counter 2: ${counter}`);
+    count--;
+    console.log(`Counter 2: ${count}`);
   };
 
   return {
@@ -15,8 +15,8 @@ const counter = (counter = 0) => {
   };
 };
 
-const counter1 = counter();
-const counter2 = counter();
+const counter1 = functionGenerator();
+const counter2 = functionGenerator();
 
 counter1.increment();
 counter1.increment();

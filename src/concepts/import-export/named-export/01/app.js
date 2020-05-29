@@ -1,5 +1,5 @@
-import * as math from './math'
+import * as math from "./math";
 
-const result = math.add(2, 4)
+const result = math.add(2, 4);
 
-console.log(result)
+console.log(result);

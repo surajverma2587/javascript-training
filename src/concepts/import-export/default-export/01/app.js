@@ -1,5 +1,5 @@
-import myAddFunction from './math'
+import myAddFunction from "./math";
 
-const result = myAddFunction(1, 2)
+const result = myAddFunction(1, 2);
 
-console.log(result)
+console.log(result);

@@ -1,7 +1,7 @@
-import myMathModule from './math'
+import myMathModule from "./math";
 
-const addResult = myMathModule.add(2, 3)
-const subResult = myMathModule.sub(10, 4)
+const addResult = myMathModule.add(2, 3);
+const subResult = myMathModule.sub(10, 4);
 
-console.log(addResult)
-console.log(subResult)
+console.log(addResult);
+console.log(subResult);
