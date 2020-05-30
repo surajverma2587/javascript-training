@@ -32,7 +32,7 @@ When you receive the data from both endpoints analyze the data and transform eac
     followers: 5,
     following: 0,
     created_at: "2nd March 2020",
-    updated_at: "2nd March 2020"
+    updated_at: "2nd March 2020",
   },
   repositories: [
     {
@@ -47,12 +47,14 @@ When you receive the data from both endpoints analyze the data and transform eac
         language: "JavaScript",
         default_branch: "master",
         size: 14,
-        license: null,
-        forks: 0,
+        license: MIT,
+        forks: 20,
         open_issues: 0,
         watchers: 0,
       }
       urls: {
+        forks_url: "https://img.shields.io/badge/Fork-20-lightgrey?logo=github&style=social",
+        license_url: "https://img.shields.io/badge/license-MIT-green",
         html_url: "https://github.com/surajverma2587/javascript-basics",
         git_url: "git://github.com/surajverma2587/javascript-basics.git",
         ssh_url: "git@github.com:surajverma2587/javascript-basics.git",
