@@ -24,7 +24,7 @@ When you receive the data from both endpoints analyze the data and transform eac
     social_media: {
       blog: "",
       twitter_username: null,
-    }
+    },
     name: null,
     company: null,
     email: null,
@@ -51,21 +51,21 @@ When you receive the data from both endpoints analyze the data and transform eac
         forks: 20,
         open_issues: 0,
         watchers: 0,
-      }
+      },
       urls: {
-        forks_url: "https://img.shields.io/badge/Fork-20-lightgrey?logo=github&style=social",
+        forks_url:
+          "https://img.shields.io/badge/Fork-20-lightgrey?logo=github&style=social",
         license_url: "https://img.shields.io/badge/license-MIT-green",
         html_url: "https://github.com/surajverma2587/javascript-basics",
         git_url: "git://github.com/surajverma2587/javascript-basics.git",
         ssh_url: "git@github.com:surajverma2587/javascript-basics.git",
         clone_url: "https://github.com/surajverma2587/javascript-basics.git",
-      }
+      },
       owner: {
         id: 10376859,
         login: "surajverma2587",
       },
     },
-    ...
-  ]
+  ],
 }
 ```
