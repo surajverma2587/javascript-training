@@ -1,28 +1,28 @@
-const firstObject = { name: 'Bob' }
-const secondObject = firstObject
+const firstObject = { name: "Bob" };
+const secondObject = firstObject;
 
-console.log(firstObject)
-console.log(secondObject)
+console.log(firstObject);
+console.log(secondObject);
 
-// const firstObject = { name: 'Bob' }
-// const secondObject = firstObject
+// const firstObject = { name: "Bob" };
+// const secondObject = firstObject;
 
-// firstObject.name = 'Alice'
+// firstObject.name = "Alice";
 
-// console.log(firstObject)
-// console.log(secondObject)
+// console.log(firstObject);
+// console.log(secondObject);
 
-// const firstObject = { name: 'Bob' }
-// let secondObject = firstObject
+// const firstObject = { name: "Bob" };
+// let secondObject = firstObject;
 
-// console.log(secondObject)
+// console.log(secondObject);
 
-// const anotherObject = { name: 'Carol' }
-// secondObject = anotherObject
+// const anotherObject = { name: "Carol" };
+// secondObject = anotherObject;
 
-// firstObject.name = 'Alice'
+// firstObject.name = "Alice";
 
-// console.log(secondObject)
+// console.log(secondObject);
 
-// secondObject.name = 'Eve'
-// console.log(anotherObject)
+// secondObject.name = "Eve";
+// console.log(anotherObject);

@@ -1,8 +1,8 @@
 var user = "Alice";
 
-(function () {
-  var user = "Bob";
+{
+  let user = "Bob";
   console.log(user);
-})();
+}
 
 console.log(user);

@@ -1,15 +1,15 @@
-let user = 'Alice'
+let user = "Alice";
 
 const changeUser = () => {
-  user = 'Bob'
+  user = "Bob";
   // const email = 'user@email.com'
-  console.log('User name changed')
-}
+  console.log("User name changed");
+};
 
-console.log(user)
+console.log(user);
 // console.log(email)
 
-changeUser()
+changeUser();
 
 // console.log(email)
-console.log(user)
+console.log(user);
