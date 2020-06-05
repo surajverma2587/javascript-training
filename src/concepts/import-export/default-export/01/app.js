@@ -1,4 +1,4 @@
-import myAddFunction from "./math";
+import myAddFunction from "./math.js";
 
 const result = myAddFunction(1, 2);
 
