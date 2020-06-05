@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Mittens",
+    "species": "cat",
+    "age": 12,
+    "gender": "F"
+  },
+  {
+    "name": "Fido",
+    "species": "dog",
+    "age": 2,
+    "gender": "M"
+  },
+  {
+    "name": "Wally",
+    "species": "dog",
+    "age": 6,
+    "gender": "M"
+  },
+  {
+    "name": "Sasha",
+    "species": "cat",
+    "age": 8,
+    "gender": "F"
+  },
+  {
+    "name": "Penny",
+    "species": "dog",
+    "age": 1,
+    "gender": "F"
+  },
+  {
+    "name": "Bandit",
+    "species": "dog",
+    "age": 7,
+    "gender": "M"
+  },
+  {
+    "name": "Bella",
+    "species": "cat",
+    "age": 3,
+    "gender": "F"
+  },
+  {
+    "name": "Frank",
+    "species": "cat",
+    "age": 10,
+    "gender": "M"
+  },
+  {
+    "name": "Bailey",
+    "species": "cat",
+    "age": 1,
+    "gender": "F"
+  },
+  {
+    "name": "Loki",
+    "species": "dog",
+    "age": 5,
+    "gender": "M"
+  }
+]
