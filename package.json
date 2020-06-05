@@ -1,15 +1,15 @@
 {
   "name": "javascript-training",
   "version": "1.0.1",
-  "description": "Challenge based training on some core javascript concepts.",
+  "description": "Training material for a JavaScript Marathon to a seasoned Software Engineer.",
   "author": "Suraj Verma",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/surajverma2587/javascript-training"
   },
+  "type": "module",
   "scripts": {
-    "babel": "babel-node --presets @babel/env src/concepts/import-export/default-export/01/app.js",
     "test": "eslint . && jest --no-cache --verbose --coverage ./*",
     "test:jest": "jest --no-cache --verbose --coverage \".*.spec.js$\"",
     "test:watch": "jest --no-cache --verbose --watch \".*.spec.js$\"",

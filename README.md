@@ -6,16 +6,13 @@ If you do not have node and npm installed follow these steps:
 
 ```sh
 # Download the nvm install script via cURL
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 # Check nvm version installed
 nvm --version
 
-# Install the latest Node LTS version
-nvm install --lts
-
-# Use the latest LTS verison
-nvm use --lts
+# Install and use the required Node version in .nvmrc file
+nvm use
 ```
 
 If you do not have Git installed follow these steps on [Git Setup](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
