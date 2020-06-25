@@ -2,7 +2,7 @@
 
 ## Challenge
 
-Write a function which fetches data from the GitHub endpoint related to repositories for a given `username` via a prompt along with another endpoint to fetch data about the user and then transform the 2 data objects to a single resultant data object and write that data object in to a .json file.
+Write a function which fetches data from the GitHub endpoint related to repositories for a given `username` along with another endpoint to fetch data about the user for the same `username`. Use a command line prompt library like `inquirer` to prompt the user for the `username`. Transform the 2 data sources to a single resultant data object and write that data object in to a .json file.
 
 ### Endpoints
 
