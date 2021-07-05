@@ -22,7 +22,7 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.0",
+    "@babel/cli": "^7.13.10",
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.5.4",
     "@types/jest": "^24.0.15",
@@ -36,6 +36,7 @@
     "nodemon": "^1.19.2"
   },
   "dependencies": {
-    "axios": "^0.19.0"
+    "axios": "^0.21.1",
+    "inquirer": "^7.2.0"
   }
 }

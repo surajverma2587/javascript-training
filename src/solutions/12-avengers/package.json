@@ -1,0 +1,17 @@
+{
+  "name": "12-avengers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BasePowers.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.2.0"
+  }
+}
